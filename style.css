@@ -1,0 +1,12 @@
+/* Custom styles for the portfolio */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.6;
+}
