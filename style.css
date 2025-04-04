@@ -12,6 +12,9 @@ p {
 }
 
 #about img {
-  border: 3px solid #007bff; /* Add a blue border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  border: 0.2rem solid #007bff; /* Add a blue border using rem */
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); /* Add a shadow using rem */
+  width: 10rem; /* Set the width using rem */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image fits nicely within the circle */
 }
